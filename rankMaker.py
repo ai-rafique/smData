@@ -20,8 +20,7 @@ col_list=[
  'METH',
  'LOC',
  'TCOM_RAT',
- 'Jc',
- 'E']
+ 'Jc']
 
 # dataframe to enlist all package names
 packed = pd.DataFrame(df['Package'].unique())
